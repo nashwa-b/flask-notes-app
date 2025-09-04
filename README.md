@@ -28,53 +28,30 @@ This project was created as a **practice project** to learn Flask basics before 
    git clone https://github.com/nashwa-b/flask-notes-app.git
    cd flask-notes-app
    
+   
 2. **Create virtual environment & install dependencies**
     python -m venv venv
 source venv/bin/activate   # For Linux/Mac
 venv\Scripts\activate      # For Windows
 pip install -r requirements.txt
 
-3. **Run the Flask app**
+
+4. **Run the Flask app**
    python -m website.main
+   
 
-4. **Open in browser**
+6. **Open in browser**
    http://127.0.0.1:5000
-
-
-
-## 📂 Project Structure
-
-flask-notes-app/
-
-│── flaskapp/  
-
-   │── __init__.py 
-
-   │── auth.py  
-
-   │── main.py             
-   │── models.py            
-   │── views.py             
-   │── templates/           
-      │── base.html
-      │── home.html
-      │── login.html
-      │── signup.html
-   │── static/              
-      │── style.css
-│── instance/                
-│── requirements.txt         
-│── README.md               
-│── LICENSE                  
-│── .gitignore               
-
 
 
 **Learning Goals**
 
 • Learn Flask app structure with Blueprints
+
 • Understand CRUD operations with SQLite
+
 • Practice user authentication in Flask
+
 • Get hands-on experience before building CivicConnect
 
 ## 📜 License
