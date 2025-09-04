@@ -40,22 +40,28 @@ pip install -r requirements.txt
 4. **Open in browser**
    http://127.0.0.1:5000
 
-📂 **Project Structure**
 
 
 ## 📂 Project Structure
 
 flask-notes-app/
-│── flaskapp/               
-│   │── __init__.py         
-│   │── auth.py              
+
+│── flaskapp/  
+
+│   │── __init__.py 
+
+│   │── auth.py  
+
 │   │── main.py             
 │   │── models.py            
 │   │── views.py             
 │   │── templates/           
 │   │   │── base.html
+
 │   │   │── home.html
+
 │   │   │── login.html
+
 │   │   │── signup.html
 │   │── static/              
 │   │   │── style.css
