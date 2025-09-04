@@ -48,23 +48,23 @@ flask-notes-app/
 
 │── flaskapp/  
 
-│   │── __init__.py 
+   │── __init__.py 
 
-│   │── auth.py  
+   │── auth.py  
 
-│   │── main.py             
-│   │── models.py            
-│   │── views.py             
-│   │── templates/           
-│   │   │── base.html
+   │── main.py             
+   │── models.py            
+   │── views.py             
+   │── templates/           
+      │── base.html
 
-│   │   │── home.html
+      │── home.html
 
-│   │   │── login.html
+      │── login.html
 
-│   │   │── signup.html
-│   │── static/              
-│   │   │── style.css
+      │── signup.html
+   │── static/              
+      │── style.css
 │── instance/                
 │── requirements.txt         
 │── README.md               
