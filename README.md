@@ -14,7 +14,7 @@ This project was created as a **practice project** to learn Flask basics before 
 
 ---
 
-## 🛠 Tech Stack
+##  Tech Stack
 - **Backend**: Python (Flask)  
 - **Frontend**: HTML, CSS, Bootstrap  
 - **Database**: SQLite  
@@ -30,21 +30,25 @@ This project was created as a **practice project** to learn Flask basics before 
    
    
 2. **Create virtual environment & install dependencies**
+   
     python -m venv venv
-source venv/bin/activate   # For Linux/Mac
-venv\Scripts\activate      # For Windows
+   
+source venv/bin/activate        # For Linux/Mac
+
+venv\Scripts\activate           # For Windows
+
 pip install -r requirements.txt
 
 
-4. **Run the Flask app**
+3. **Run the Flask app**
    python -m website.main
    
 
-6. **Open in browser**
+4. **Open in browser**
    http://127.0.0.1:5000
 
 
-**Learning Goals**
+## Learning Goals ##
 
 • Learn Flask app structure with Blueprints
 
