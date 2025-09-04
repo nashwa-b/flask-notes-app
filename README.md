@@ -21,7 +21,7 @@ This project was created as a **practice project** to learn Flask basics before 
 
 ---
 
-## ⚙️ Installation & Setup
+##  Installation & Setup
 
 1. **Clone the repository**
    ```bash
@@ -57,11 +57,8 @@ flask-notes-app/
    │── views.py             
    │── templates/           
       │── base.html
-
       │── home.html
-
       │── login.html
-
       │── signup.html
    │── static/              
       │── style.css
