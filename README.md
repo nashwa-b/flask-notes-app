@@ -46,11 +46,11 @@ pip install -r requirements.txt
 ## 📂 Project Structure
 
 flask-notes-app/
-│── flaskapp/               # App folder
-│   │── __init__.py          # App factory
-│   │── auth.py              # Authentication routes
-│   │── main.py              # Main app routes
-│   │── models.py            # Database models
+│── flaskapp/               
+│   │── __init__.py         
+│   │── auth.py              
+│   │── main.py             
+│   │── models.py            
 │   │── views.py             # Extra routes
 │   │── templates/           # HTML templates
 │   │   │── base.html
