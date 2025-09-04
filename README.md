@@ -51,19 +51,19 @@ flask-notes-app/
 │   │── auth.py              
 │   │── main.py             
 │   │── models.py            
-│   │── views.py             # Extra routes
-│   │── templates/           # HTML templates
+│   │── views.py             
+│   │── templates/           
 │   │   │── base.html
 │   │   │── home.html
 │   │   │── login.html
 │   │   │── signup.html
-│   │── static/              # CSS/JS files
+│   │── static/              
 │   │   │── style.css
-│── instance/                # Database storage
-│── requirements.txt         # Dependencies
-│── README.md                # Documentation
-│── LICENSE                  # MIT License
-│── .gitignore               # Ignored files
+│── instance/                
+│── requirements.txt         
+│── README.md               
+│── LICENSE                  
+│── .gitignore               
 
 
 
