@@ -1,4 +1,4 @@
-##📝 Flask Notes App
+## 📝 Flask Notes App
 
 A simple **note-taking web application** built with Python **Flask** and **SQLite**.  
 This project was created as a **practice project** to learn Flask basics before developing my major project *CivicConnect*.  
@@ -25,6 +25,8 @@ This project was created as a **practice project** to learn Flask basics before 
 
 1. **Clone the repository**
    ```bash
+   git clone https://github.com/nashwa-b/flask-notes-app.git
+   cd flask-notes-app
    
 2. **Create virtual environment & install dependencies**
     python -m venv venv
@@ -62,17 +64,15 @@ flask-notes-app/
 │── LICENSE                # MIT License
 │── .gitignore             # Ignored files
 
+
 **Learning Goals**
 
-Learn Flask app structure with Blueprints
+• Learn Flask app structure with Blueprints
+• Understand CRUD operations with SQLite
+• Practice user authentication in Flask
+• Get hands-on experience before building CivicConnect
 
-Understand CRUD operations with SQLite
-
-Practice user authentication in Flask
-
-Get hands-on experience before building CivicConnect
-
-📜 License
+## 📜 License
 
 This project is licensed under the MIT License.
 You are free to use, modify, and distribute this project with proper attribution.
