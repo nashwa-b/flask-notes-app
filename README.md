@@ -42,27 +42,29 @@ pip install -r requirements.txt
 
 📂 **Project Structure**
 
+
+## 📂 Project Structure
+
 flask-notes-app/
-│── website/
-│   ├── __init__.py        # App factory
-│   ├── auth.py            # Authentication routes
-│   ├── main.py            # Main app routes
-│   ├── models.py          # Database models
-│   ├── views.py           # Extra routes
-│   ├── static/            # CSS/JS files
-│   │   ├── style.css
-│   │   └── index.js
-│   └── templates/         # HTML templates
-│       ├── base.html
-│       ├── home.html
-│       ├── login.html
-│       └── sign_up.html
-│
-│── instance/              # Database storage
-│── requirements.txt       # Dependencies
-│── README.md              # Documentation
-│── LICENSE                # MIT License
-│── .gitignore             # Ignored files
+│── flaskapp/               # App folder
+│   │── __init__.py          # App factory
+│   │── auth.py              # Authentication routes
+│   │── main.py              # Main app routes
+│   │── models.py            # Database models
+│   │── views.py             # Extra routes
+│   │── templates/           # HTML templates
+│   │   │── base.html
+│   │   │── home.html
+│   │   │── login.html
+│   │   │── signup.html
+│   │── static/              # CSS/JS files
+│   │   │── style.css
+│── instance/                # Database storage
+│── requirements.txt         # Dependencies
+│── README.md                # Documentation
+│── LICENSE                  # MIT License
+│── .gitignore               # Ignored files
+
 
 
 **Learning Goals**
