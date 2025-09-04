@@ -38,16 +38,20 @@ This project was created as a **practice project** to learn Flask basics before 
     venv\Scripts\activate           # For Windows
 
     pip install -r requirements.txt
+   
 
 
 3. **Run the Flask app**
    
    python -m website.main
    
+   
 
 4. **Open in browser**
    
    http://127.0.0.1:5000
+   
+   
 
 
 ## Learning Goals ##
